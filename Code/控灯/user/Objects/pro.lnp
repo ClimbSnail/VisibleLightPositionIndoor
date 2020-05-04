@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_md.o"
+".\objects\test.o"
+".\objects\led.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\usart.o"
+".\objects\timer.o"
+".\objects\oled.o"
+".\objects\key.o"
+--strict --scatter ".\Objects\pro.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\pro.map" -o .\Objects\pro.axf

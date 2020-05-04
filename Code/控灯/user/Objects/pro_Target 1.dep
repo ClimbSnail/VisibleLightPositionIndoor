@@ -1,0 +1,74 @@
+Dependencies for Project 'pro', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x532BB228)(--cpu Cortex-M3 -g --apcs=interwork -I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (.\test.c)(0x598E7973)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (led.h)(0x598D7926)
+I (..\my\timer.h)(0x598BAB25)
+I (..\my\oled.h)(0x596EF8E5)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\my\KEY\key.h)(0x598BB4BD)
+F (.\led.c)(0x598BD9A9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (led.h)(0x598D7926)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x550EB9F1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\my\timer.c)(0x598BD59E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\my\timer.h)(0x598BAB25)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\user\led.h)(0x598D7926)
+I (..\my\mpu6050\mpu6050.h)(0x59716F58)
+I (..\my\mpu6050\mpuiic.h)(0x551A2334)
+I (..\my\mpu6050\eMPL\inv_mpu.h)(0x5972D85A)
+I (..\my\mpu6050\eMPL\inv_mpu_dmp_motion_driver.h)(0x50CA9A0C)
+I (..\my\oled.h)(0x596EF8E5)
+F (..\my\oled.c)(0x59700F97)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (..\my\oled.h)(0x596EF8E5)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\my\spi.h)(0x596F1691)
+F (..\my\KEY\key.c)(0x598D869F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\user -I..\my -I..\my\mpu6050 -I..\my\mpu6050\eMPL -I..\my\KEY-I F:\¿ØµÆ\user\RTE-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I D:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\my\KEY\key.h)(0x598BB4BD)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\user\led.h)(0x598D7926)
+I (..\my\timer.h)(0x598BAB25)
